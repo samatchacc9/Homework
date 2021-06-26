@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">   
+    
+    <style>
+        body,html {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        header {
+            width: 100%;
+            height: 70px;
+            background-color: #282828;
+        }
+
+        header h1 {
+            position: absolute;
+            padding: 3px;
+            float: left;
+            margin-left: 2%;
+            margin-top: 10px;
+            font-family: 'Alfa Slab One', cursive;
+            color: #009688;
+        }
+
+        header span {
+            color: #ffffff;
+        }
+        ul {
+            width: auto;
+            float: right;
+            margin: 8px;
+        }
+        li {
+            display: inline-block;
+            padding: 15px 30px;      
+        }
+        a {
+            text-align: center;
+            color: #ffffff;
+            text-decoration: none;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 1.2vw;
+        }
+        a:hover{
+            color: #009688;
+            transition: 0.5s;
+
+        }
+
+        img{
+            width: 100%;
+            margin-top: -16px;
+        }
+
+        body{
+            width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.75),
+            rgba(0, 0, 0, 0.75)
+          ),
+          url("https://images.pexels.com/photos/1457845/pexels-photo-1457845.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+        background-size: cover;
+        background-position: center;
+        }
+
+        .content {
+            font-family: 'Open Sans', sans-serif;
+            width: 100%;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            text-align: center;
+            color: #fff;
+        }
+
+        .content h1 {
+            
+            font-size: 70px;
+            margin-top: 10px;
+        }
+
+        .content p {
+           margin: 10px auto;
+           font-weight: 100;
+           line-height: 25px;
+
+        }
+
+       /* button {
+           width: 200px;
+           padding: 15px 0;
+           text-align: center;
+           margin: 20px 10px;
+           border-radius: 25px;
+           font-weight: bold;
+           border: 2px solid #009688;
+           background: transparent;
+           color: #fff;
+           cursor: pointer;
+           position: relative;
+           overflow: hidden;
+       } */
+
+       /* span {
+           background: #009688;
+           height: 100%;
+           width: 0;
+           border-radius: 25%;
+           position: absolute;
+           left: 0;
+           bottom: 0;
+           z-index: -1;
+           transition: 0.5s;
+
+       } */
+
+       .button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button {
+  background-color: white; 
+  color: black; 
+  border-radius: 25px;
+}
+
+.button:hover {
+    border-radius: 25px;
+  background-color: #009688;
+  color: white;
+}
+
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>THE<span>HOTEL</span></h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Portfolios</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content">
+        <h1>THE HOTEL</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, facilis provident. Facilis ad perferendis molestias,<br> debitis quam pariatur quae numquam neque fuga repellat optio nemo, natus ea autem dicta obcaecati.</p>
+
+        <div>
+            <button class="button">WATCH MORE</button>
+            <button class="button">SUBSCRIBE</button>
+        </div>
+    </div>
+</body>
+</html>
